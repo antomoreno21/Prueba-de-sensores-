@@ -43,4 +43,28 @@ Con esto finaliza la prueba del sensor, en la terminal deberá mostrarse la temp
 
 ## Sensor MAX30102
 
+### Conexión
+
+|Raspberry pi   |MAX30102   |
+| ------------ | ------------ |
+|3.3 V   |VIN   |
+|GND   |GND   |
+|GPIO 4 (PIN 7)   |INT|
+|SCL1   |SCL   |
+|SDA1   |SDA   |
+
+### Prueba del sensor
+
+Paso 1. Descargue las librerias: [hrcalc y max30102](https://github.com/antomoreno21/Prueba-de-sensores-/tree/main/MAX30102/Librerias).
+
+Paso 2. Descargue el programa a ejecutar para la prueba: [MAX30102.py](https://github.com/antomoreno21/Prueba-de-sensores-/tree/main/MAX30102).
+
+Paso 3. Guarde todos los archivos descargados juntos. Por ejemplo, coloque todos los archivos en el Escritorio.
+
+Paso 4. Abrir una terminal en la dirección donde se encuentren todos los archivos, ejecute lo siguiente:
+> python MAX30102.py
+
+El sensor debe mostrar la lectura en la terminal y con esto comprueba que esta funcionando.
+
+Para más información consulte el siguiente repositorio: [Repositorio MAX30102](https://github.com/vrano714/max30102-tutorial-raspberrypi).
 
