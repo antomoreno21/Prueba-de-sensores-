@@ -3,7 +3,7 @@
 #Sensor MLX90614
 Actualizar Raspberry Pi
 > sudo apt-get update
-> 
+
 > sudo apt-get upgrade
 
 Activar el I2C
