@@ -1,5 +1,6 @@
-## Configuración general para utilizar los sensores de temperatura y concentración de oxigeno.
+# Sensor MAX30102 Y MLX90614.
 
+## Configuración general para utilizar los sensores.
 
 Paso 1. Actualizar Raspberry Pi con los comandos:
 > sudo apt-get update
@@ -30,6 +31,8 @@ Con la configuración realizada, esta listo para probar los sensores.
 |SCL1   |SCL   |
 |SDA1   |SDA   |
 
+*Nota: coloque una resistencia en el sensor MLX90614 de 4 700 ohms en pull up en SCL y otra resistencia del mismo valor en SDA. *
+
 ### Prueba del sensor
 Paso 1. Descargue el siguiente codigo: [MLX90614](https://github.com/antomoreno21/Prueba-de-sensores-/tree/main/MLX90614 "MLX90614").
 
@@ -52,6 +55,8 @@ Con esto finaliza la prueba del sensor, en la terminal deberá mostrarse la temp
 |GPIO 4 (PIN 7)   |INT|
 |SCL1   |SCL   |
 |SDA1   |SDA   |
+
+*Nota: coloque una resistencia en el sensor MLX90614 de 4 700 ohms en pull up en SCL y otra resistencia del mismo valor en SDA.*
 
 ### Prueba del sensor
 
