@@ -1,5 +1,7 @@
 # Sensor MAX30102 Y MLX90614.
 
+En este repositorio se explica el procedimiento para conectar y probar los sensores. Cabe mencionar que es muy importante seguir las conexiones que se mencionan para evitar que la Raspberry Pi y/o el sensor se dañen.
+
 ## Configuración general para utilizar los sensores.
 
 Paso 1. Actualizar Raspberry Pi con los comandos:
