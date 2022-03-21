@@ -31,7 +31,7 @@ Con la configuración realizada, esta listo para probar los sensores.
 |SCL1   |SCL   |
 |SDA1   |SDA   |
 
-*Nota: coloque una resistencia en el sensor MLX90614 de 4 700 ohms en pull up en SCL y otra resistencia del mismo valor en SDA. *
+*Nota: coloque una resistencia en el sensor MLX90614 de 4 700 ohms en pull up en SCL y otra resistencia del mismo valor en SDA.*
 
 ### Prueba del sensor
 Paso 1. Descargue el siguiente codigo: [MLX90614](https://github.com/antomoreno21/Prueba-de-sensores-/tree/main/MLX90614 "MLX90614").
