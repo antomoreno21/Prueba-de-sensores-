@@ -30,6 +30,17 @@ Con la configuración realizada, esta listo para probar los sensores.
 |SCL1   |SCL   |
 |SDA1   |SDA   |
 
+### Prueba del sensor
+Paso 1. Descargue el siguiente codigo: [MLX90614](https://github.com/antomoreno21/Prueba-de-sensores-/tree/main/MLX90614 "MLX90614").
+
+Paso 2. Instalar la biblioteca del sensor MLX90614 con el comando:
+> pip install pyMLX90614
+
+Paso 3. Abrir una terminal donde se encuentre el archivo descargado del paso 1. Ejecute en dicha terminal el comando:
+> python MLX90614.py
+
+Con esto finaliza la prueba del sensor, en la terminal deberá mostrarse la temperatura en grados centigrados.
+
 ## Sensor MAX30102
 
 
